@@ -1,1 +1,19 @@
-# code here!
+class School
+  attr_reader :name,:roster,:add_student
+  def initialize(name)
+    @name=name
+  end
+ROSTER={}
+  def roster
+    @roster=ROSTER
+  end
+
+  def add_student=(student_name,grade)
+    @add_student=(student_names,grade)
+    if ROSTER[grade]
+      ROSTER[grade]<<student_name
+    else
+      ROSTER[grade]=student_name
+    end
+  end
+end
