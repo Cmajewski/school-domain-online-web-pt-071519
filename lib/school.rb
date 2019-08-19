@@ -8,8 +8,8 @@ ROSTER={}
     @roster=ROSTER
   end
 
-  def add_student=(student_name,grade)
-    @add_student=(student_name,grade)
+  def add_student= (student_name)
+    @add_student = (student_name)
   end
 
 end
