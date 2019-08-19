@@ -15,7 +15,7 @@ class School
     if @roster[grade]
       @roster[grade]<<student_name
     else
-      @roster[grade]=student_name.to_a
+      @roster[grade]=student_name
     end
 
   end
