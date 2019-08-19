@@ -9,11 +9,7 @@ ROSTER={}
   end
 
   def add_student=(student_name,grade)
-    @add_student=(student_names,grade)
-    if ROSTER[grade]
-      ROSTER[grade]<<student_name
-    else
-      ROSTER[grade]=student_name
-    end
+    @add_student=(student_name,grade)
   end
+
 end
