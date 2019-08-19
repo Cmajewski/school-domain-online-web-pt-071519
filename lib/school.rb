@@ -15,7 +15,7 @@ class School
     if @roster[grade]
       @roster[grade]<<student_name
     else
-      @roster[grade]=student_name
+      @roster[grade]=student_name.split
     end
 
   end
