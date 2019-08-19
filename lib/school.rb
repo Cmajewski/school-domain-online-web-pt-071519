@@ -24,9 +24,9 @@ class School
   end
 
   def sort
-  @roster.map do |grade,student_names| 
-    puts grade
-    puts student_names.sort
+  @roster.map do |grade,student_names|
+    grade
+    student_names.sort
   end
   end
 
